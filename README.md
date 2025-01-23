@@ -1,2 +1,2 @@
 # R-class
-Practicing making a README file 
+Practicing editing a README file 
