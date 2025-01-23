@@ -1,0 +1,10 @@
+---
+title: "Homework"
+author: "Rebecca Lindgren"
+date: "2025-01-23"
+output: word_document
+---
+
+
+
+
