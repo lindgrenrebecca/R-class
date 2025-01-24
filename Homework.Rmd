@@ -23,4 +23,7 @@ myMean2 <- function(x) {
 myMean2(assignment2)
 ```
 
-
+```{r other example}
+vector <- c(1:20, 49, 29, 0, 4, 25)
+myMean2(vector)
+```
