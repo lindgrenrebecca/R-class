@@ -5,14 +5,22 @@ date: "2025-01-23"
 output: word_document
 ---
 
-```{r}
+```{r function as is}
 assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
 
-myMean <- function(x) { 
-  return(sum(x)/length(x)) }
+myMean <- function(assignment2) { 
+  return(sum(assignment2)/length(assignment2)) }
 
 myMean(assignment2)
 ```
 
+```{r function modified}
+assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+
+myMean2 <- function(x) { 
+  return(sum(x)/length(x)) }
+
+myMean2(assignment2)
+```
 
 
