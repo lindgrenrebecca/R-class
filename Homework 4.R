@@ -18,3 +18,4 @@ hist(finaldecision, breaks = c(-0.5, 0.5, 1.5), xlim = c(-0.5, 1.5), main = "Dec
 #Boxplots
 boxplot(bloodp, horizontal = T, main = "Blood Pressure")
 boxplot(finaldecision, horizontal = T, main = "Decision of Treatment")
+
