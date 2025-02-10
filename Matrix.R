@@ -16,6 +16,6 @@ det(A)
 det(B)
 
 #testing a different square matrix
-C = matrix(round(rnorm(100, 50, 25), 2), nrow = 10)
+C = matrix(round(rnorm(100, 10, 2), 2), nrow = 10)
 det(C)
 solve(C)
