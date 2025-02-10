@@ -7,12 +7,15 @@ B = matrix(1:1000, nrow = 10)
 
 #finding the inverse of matrix A
 solve(A)
-
 #finding the inverse of matrix B
 solve(B)
 
 #finding the determinant of matrix A
 det(A)
-
 #finding the determinant of matrix A
 det(B)
+
+#testing a different square matrix
+C = matrix(round(rnorm(100, 50, 25), 2), nrow = 10)
+det(C)
+solve(C)
