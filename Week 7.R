@@ -2,7 +2,7 @@ install.packages("pryr")
 library(pryr)
 
 data(USArrests) #load in data from R's built in datasets
-head(USArrests) #previous data; an S3 generic function
+head(USArrests) #preview data; an S3 generic function
 print(USArrests) #print all of the data; an S3 generic function
 ftype(print) #returns "s3" "generic"
 print #returns "UseMethod("print"), this tells me it is a generic function 
