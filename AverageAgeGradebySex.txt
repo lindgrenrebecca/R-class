@@ -1,0 +1,21 @@
+"Name" "Age" "Sex" "Grade" "Average_Grade" "Average_Age"
+"1" "Lauri" 21 "Female" 90 86.9375 21.375
+"2" "Leonie" 21 "Female" 91 86.9375 21.375
+"3" "Sherlyn" 22 "Female" 85 86.9375 21.375
+"4" "Mikaela" 20 "Female" 69 86.9375 21.375
+"5" "Aiko" 24 "Female" 97 86.9375 21.375
+"6" "Tiffaney" 21 "Female" 78 86.9375 21.375
+"7" "Corina" 23 "Female" 81 86.9375 21.375
+"8" "Petronila" 23 "Female" 98 86.9375 21.375
+"9" "Alecia" 20 "Female" 87 86.9375 21.375
+"10" "Shemika" 23 "Female" 97 86.9375 21.375
+"11" "Fallon" 22 "Female" 90 86.9375 21.375
+"12" "Deloris" 21 "Female" 67 86.9375 21.375
+"13" "Randee" 23 "Female" 91 86.9375 21.375
+"14" "Eboni" 20 "Female" 84 86.9375 21.375
+"15" "Delfina" 19 "Female" 93 86.9375 21.375
+"16" "Ernestina" 19 "Female" 93 86.9375 21.375
+"17" "Raul" 25 "Male" 80 80.25 21.25
+"18" "Booker" 18 "Male" 83 80.25 21.25
+"19" "Raphael" 23 "Male" 91 80.25 21.25
+"20" "Milo" 19 "Male" 67 80.25 21.25
