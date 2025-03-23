@@ -2,9 +2,6 @@ data <- read.csv("HI.csv")
 library(ggplot2)
 library(dplyr)
 
-#make a new columns representing total # of kids
-data$tot_kids <- rowSums(data[, 10:11])
-
 #mean-center husband's income 
 data$husby_center <- data$husby - mean(data$husby)
 
