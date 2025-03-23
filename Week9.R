@@ -2,9 +2,6 @@ data <- read.csv("HI.csv")
 library(ggplot2)
 library(dplyr)
 
-#mean-center husband's income 
-data$husby_center <- data$husby - mean(data$husby)
-
 #create levels for the factor variable "Education"
 education_order <- c("<9years", "9-11years", "12years", "13-15years", "16years", ">16years")
 
