@@ -16,12 +16,22 @@ ggplot(data_summary, aes(x = education, y = mean_whrswk)) +
   geom_col(fill = "purple") +
   labs(x = "Education Level", y = "Avg. Hrs Worked Per Week")
 
-#Second plot: Scatterplot (full dataset)
+#Second plot: what if we use median hours worked instead?
+data_median <- data |>
+  group_by(education) |>
+  summarise(median_whrswk = median(whrswk)) |>
+  mutate(education = factor(education, levels = education_order))
+
+ggplot(data_median, aes(x = education, y = median_whrswk)) + 
+  geom_col(fill = "purple") +
+  labs(x = "Education Level", y = "Median Hrs Worked Per Week")
+
+#Third plot: Scatterplot (full dataset)
 ggplot(data, aes(x = whrswk, y = husby)) +
   geom_point(size = 0.5) +
   labs(x = "Hrs Worked Per Week", y = "Husband's Income (in thousands)")
 
-#Third plot: Scatterplot with a sample of the dataset and correlation line
+#Fourth plot: Scatterplot with a sample of the dataset and correlation line
 data_sample <- data |>
   sample_n(500)
 
