@@ -1,0 +1,29 @@
+---
+title: "Week 12"
+author: "Rebecca Lindgren"
+date: "2025-04-10"
+output: word_document
+---
+#Project Description
+The purpose of my final project is to create an R package that allows user to quickly and comprehensively evaluate the normality of their data, a critical first step in many statistical analyses. 
+
+
+```{r Shapiro-Wilk test}
+
+```
+
+```{r QQ plot}
+
+```
+
+```{r Density plot}
+
+```
+
+```{r output ALL checks}
+
+```
+
+
+
+
